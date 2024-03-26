@@ -3,9 +3,9 @@ UWE Dissertation- Music Creation Using Generational Algorithms
 
 Firstly install requirements, system uses pyo which is compatible best with python 3.6, 3.7, 3.8
 we have some input parameters to feed the program in order for it to start generating
-1- firstly we have to select the numbr of bars, in music a bar is considered as a segment of a song, it is used as a unit.   return
-2- notes per bar is how many notes are included per bar unit.   return
-3- number of steps is to decide how many notes you would want on top of one another, the output is either a chord or melody depending on steps   return
+1- firstly we have to select the numbr of bars, in music a bar is considered as a segment of a song, it is used as a unit. <br>
+2- notes per bar is how many notes are included per bar unit.<br>
+3- number of steps is to decide how many notes you would want on top of one another, the output is either a chord or melody depending on steps <br>
 4- introduce pauses between notes or not (boolean option)
 5-  there are different keys that  you can have the scale in, set on C for default
 6- a Scale is a group of notes of a similar frequency and pitch that sound good with one another which is set to major on default since C major is one of the most common scales used.
