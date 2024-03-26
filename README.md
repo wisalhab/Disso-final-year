@@ -13,5 +13,5 @@ we have some input parameters to feed the program in order for it to start gener
 8- population size is how many melodies (genomes) are initially generated within the population <br>
 9- number of mutations is how many notes are to be shifted around and in our case it will switch out the note with another randomly chosen note <br>
 10- mutation probability is the probability that a chosen note will be switched out or kept as is, set to 0.5 (50%) on default so it acts as a coin flip to mutate the note or not. <br>
-a metranome is added so that it gives the melody created some structure by adding a tick rate.
-the midi files store each generation in a decending sort from best rated to worst rated
+A metranome is added so that it gives the melody created some structure by adding a tick rate.
+the midi files store each generation in a decending sort from best rated to worst rated.
