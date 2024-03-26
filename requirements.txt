@@ -1,0 +1,6 @@
+#using pyo to generate sine waves for different melodies
+pyo==1.0.1 
+#command line interface creation kit for ease of use while developing 
+click==7.1.2
+#for midi files to export the generated melodies/ can be used in ableton 
+MIDIUtil==1.2.1
