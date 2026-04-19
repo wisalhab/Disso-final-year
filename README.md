@@ -10,17 +10,17 @@ The system combines evolutionary computation, digital signal processing, music t
 # Table of Contents
 - [Overview](#Overview)
 - [Key Features](#Key-Features)
-- System Architecture
-- Genetic Algorithm Design
-- Melody Encoding
-- Audio Synthesis Pipeline
-- MIDI Export
-- Command Line Interface
-- Project Structure
-- Installation
-- Running the System
-- Testing
-- Future Improvements
+- [System Architecture](#System-Architecture)
+- [Genetic Algorithm Design](#Genetic-Algorithm-Design)
+- [Melody Encoding](#Melody-Encoding)
+- [Audio Synthesis Pipeline](#Audio-Synthesis-Pipeline)
+- [MIDI Export](#MIDI-Export)
+- [Command Line Interface](#Command-Line-Interface)
+- [Project Structure](#Project-Structure)
+- [Installation](#Installation)
+- [Running the System](#Running-the-System)
+- [Testing](#Testing)
+- [Future Improvements](#Future-Improvements)
 
 # Overview
 This project explores how genetic algorithms can be used to generate short musical melodies.
