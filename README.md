@@ -1,13 +1,13 @@
-# Disso-final-year
+ ## Final year project
 UWE Dissertation- Music Creation Using Generational Algorithms
 
-🎵 Genetic Algorithm for Music Generation
+# Genetic Algorithm for Music Generation
 A Final‑Year Dissertation Project by Wissam Salhab
 This project implements a Genetic Algorithm (GA) to generate musical melodies using pyo for real‑time audio synthesis and MIDIUtil for exporting evolved melodies as MIDI files.
 It is a human‑in‑the‑loop evolutionary system, where the user listens to melodies and provides fitness ratings that guide the evolution of new musical ideas.
 The system combines evolutionary computation, digital signal processing, music theory, and interactive evaluation to explore how computational methods can generate creative musical output.
 
-📌 Table of Contents
+# Table of Contents
 - Overview
 - Key Features
 - System Architecture
@@ -22,7 +22,7 @@ The system combines evolutionary computation, digital signal processing, music t
 - Testing
 - Future Improvements
 
-🎼 Overview
+# Overview
 This project explores how genetic algorithms can be used to generate short musical melodies.
 Each melody is represented as a binary genome, which is translated into musical notes, played through pyo, and evaluated by the user.
 The system evolves melodies over generations using:
@@ -32,10 +32,10 @@ The system evolves melodies over generations using:
 - Elitism
 The user listens to the best melodies each generation and decides whether to continue evolving or stop.
 
-✨ Key Features
-🎵 Real‑Time Audio Playback
+## Key Features
+# Real‑Time Audio Playback
 Melodies are synthesized using pyo and played directly to the user.
-🧬 Genetic Algorithm Engine
+# Genetic Algorithm Engine
 Includes:
 - Random population generation
 - Weighted parent selection
@@ -43,16 +43,16 @@ Includes:
 - Bit‑flip mutation
 - Elitism
 - Fitness‑limit stopping conditions
-🎹 Melody Translation
+# Melody Translation
 Binary genomes are mapped to:
 - Notes
 - Pauses
 - Durations
 - Chords (via multi‑step harmonization)
 - Scales and keys
-🎼 MIDI Export
+# MIDI Export
 Every generation is saved as a folder of .mid files for use in DAWs like Ableton or FL Studio.
-🖥️ CLI Interface
+# CLI Interface
 Built with click, allowing users to configure:
 - Bars
 - Notes per bar
@@ -60,7 +60,7 @@ Built with click, allowing users to configure:
 - Chord steps
 - Mutation settings
 - Population size
-🧪 Unit Tests
+# Unit Tests
 Includes tests for:
 - Melody generation
 - Population generation
@@ -69,7 +69,7 @@ Includes tests for:
 - Melody translation
 - MIDI export
 
-🏗️ System Architecture
+# System Architecture
 /project
 │── algorithms/
 │   └── genetic.py        # Core GA implementation
@@ -81,7 +81,7 @@ Includes tests for:
 
 
 
-🧬 Genetic Algorithm Design
+# Genetic Algorithm Design
 The GA is implemented in genetic.py and includes:
 Genome Representation
 A melody is encoded as a list of bits:
@@ -111,7 +111,7 @@ mutation(genome, num_mutations, probability)
 Elitism
 Top 2 genomes are always preserved.
 
-🎵 Melody Encoding
+# Melody Encoding
 The function transmelody() converts a genome into a structured melody:
 - Splits genome into 4‑bit chunks
 - Converts bits → integer → pitch
@@ -128,7 +128,7 @@ Output format:
 
 
 
-🔊 Audio Synthesis Pipeline
+# Audio Synthesis Pipeline
 The function transevents() converts the melody into pyo Events:
 - midinote → pitch
 - midivel → velocity
@@ -138,7 +138,7 @@ The function transevents() converts the melody into pyo Events:
 A metronome is added for rhythmic reference.
 The user listens to each melody and provides a rating (0–5), which becomes the fitness score.
 
-🎼 MIDI Export
+# MIDI Export
 savemidi() converts the melody into a .mid file:
 - Creates directories automatically
 - Writes notes, durations, velocities
@@ -153,7 +153,7 @@ Example output structure:
 
 
 
-🖥️ Command Line Interface
+# Command Line Interface
 The CLI prompts the user for all musical and GA parameters:
 Number of bars:
 Notes per bar:
@@ -169,7 +169,7 @@ Mutation probability:
 
 Then the system evolves melodies interactively.
 
-📁 Project Structure
+# Project Structure
 algorithms/
 │── genetic.py
 mgen.py
@@ -179,7 +179,7 @@ README.md
 
 
 
-📦 Installation
+# Installation
 1. Install dependencies
 pip install -r requirements.txt
 
@@ -188,7 +188,7 @@ pip install -r requirements.txt
 Refer to:
 https://ajaxsoundstudio.com/software/pyo/
 
-▶️ Running the System
+# Running the System
 Start the CLI:
 python mgen.py
 
@@ -202,7 +202,7 @@ The system will:
 - Save MIDI files
 - Ask whether to continue
 
-🧪 Testing
+# Testing
 Run all tests:
 python tests.py
 
@@ -216,7 +216,7 @@ Tests cover:
 - Event generation
 - MIDI export
 
-🚀 Future Improvements
+# Future Improvements
 - Add automated fitness evaluation (e.g., rule‑based or ML‑based)
 - Add GUI for easier interaction
 - Add visualization of melodies
@@ -224,7 +224,7 @@ Tests cover:
 - Add multi‑objective fitness (e.g., rhythmic variety + pitch contour)
 - Add real‑time parameter tweaking
 
-🎤 Final Notes
+# Final Notes
 This project demonstrates:
 - Strong understanding of genetic algorithms
 - Practical application of music theory
