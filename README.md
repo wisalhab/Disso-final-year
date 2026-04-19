@@ -9,7 +9,7 @@ The system combines evolutionary computation, digital signal processing, music t
 
 # Table of Contents
 - [Overview](#Overview)
-- Key Features
+- [Key Features](#KeyFeatures)
 - System Architecture
 - Genetic Algorithm Design
 - Melody Encoding
