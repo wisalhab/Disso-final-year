@@ -9,7 +9,7 @@ The system combines evolutionary computation, digital signal processing, music t
 
 # Table of Contents
 - [Overview](#Overview)
-- [Key Features](#KeyFeatures)
+- [Key Features](#Key Features)
 - System Architecture
 - Genetic Algorithm Design
 - Melody Encoding
@@ -32,7 +32,7 @@ The system evolves melodies over generations using:
 - Elitism
 The user listens to the best melodies each generation and decides whether to continue evolving or stop.
 
-## Key Features
+# Key Features
 # Real‑Time Audio Playback
 Melodies are synthesized using pyo and played directly to the user.
 # Genetic Algorithm Engine
