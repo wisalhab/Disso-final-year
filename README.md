@@ -8,7 +8,7 @@ It is a human‑in‑the‑loop evolutionary system, where the user listens to m
 The system combines evolutionary computation, digital signal processing, music theory, and interactive evaluation to explore how computational methods can generate creative musical output.
 
 # Table of Contents
-- [Overview] (# Overview)
+- [Overview](#Overview)
 - Key Features
 - System Architecture
 - Genetic Algorithm Design
